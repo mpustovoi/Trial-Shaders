@@ -1,0 +1,677 @@
+#shaders/lang/ru_ru.lang
+
+#Профили
+profile.MINIMUM=Минимум
+profile.LOW=Низкий
+profile.MEDIUM=Средний
+profile.HIGH=Высокий
+profile.ULTRA=Ультра
+profile.comment=Пресет настроек.
+
+#Экраны
+screen.LIGHTING=Освещение
+screen.SHADOW_CONFIG=Дополнительные настройки теней
+screen.MCBL=Настройки цветного блочного освещения
+
+screen.MATERIAL=Материалы
+screen.SPECULAR=Глянцевость и отражения
+screen.NORMALS=Нормали и параллакс
+
+screen.ATMOSPHERICS=Атмосфера
+screen.SKY=Настройки неба
+screen.CLOUDS=Настройки облаков
+
+screen.WATER=Вода
+
+screen.CAMERA=Камера
+
+screen.ANTIALIASING=Сглаживание
+
+screen.COLOR=Цвет
+screen.LIGHT_COLOR=Цвет освещения
+screen.LIGHT_M=Свет (утро)
+screen.AMBIENT_M=Окружающий свет (утро)
+screen.LIGHT_D=Свет (день)
+screen.AMBIENT_D=Окружающий свет (день)
+screen.LIGHT_E=Свет (вечер)
+screen.AMBIENT_E=Окружающий свет (вечер)
+screen.LIGHT_N=Свет (ночь)
+screen.AMBIENT_N=Окружающий свет (ночь)
+screen.MINLIGHT=Минимальный свет
+screen.BLOCKLIGHT_COLOR=Цвет блочного света
+screen.SKY_COLOR=Цвет неба
+screen.WATER_COLOR=Цвет воды
+screen.WEATHER_COLOR=Цвет погоды
+screen.WEATHER_R=Дождь (обычный)
+screen.WEATHER_C=Снегопад
+screen.WEATHER_D=Песчаная буря (пустыня)
+screen.WEATHER_B=Песчаная буря (меса)
+screen.WEATHER_S=Дождь в болоте
+screen.WEATHER_M=Дождь на грибном острове
+screen.WEATHER_V=Облачно в саванне
+screen.DIMENSION_COLOR=Цвет измерения
+screen.NETHER_COLOR=Цвет Незера
+screen.NETHER_N=Незерские пустоши
+screen.NETHER_V=Долина душ
+screen.NETHER_C=Багровый лес
+screen.NETHER_W=Искажённый лес
+screen.NETHER_B=Базальтовые дельты
+screen.END_COLOR=Цвет Энда
+option.ARNIYRE_R=Красный
+option.ARNIYRE_G=Зелёный
+option.ARNIYRE_B=Синий
+option.ARNIYRE_I=Интенсивность
+screen.CGT=Цветокоррекция
+screen.EXPOSURE_CONFIG=Дополнительные настройки экспозиции
+
+screen.ANIMATION=Анимации
+
+#Настройки
+option.ABOUT=Пробные шейдеры
+option.ABOUT.comment=Набор шейдеров
+value.ABOUT.0=mpustovoi
+
+#Освещение
+option.SHADOW=Реалистичные тени
+option.SHADOW.comment=Включает динамическое создание теней в реальном времени.
+
+option.shadowMapResolution=Качество теневой карты
+option.shadowMapResolution.comment=Настройка размера теневой карты. [*]Большее разрешение снижает производительность.
+value.shadowMapResolution.512=Очень низкое (512)
+value.shadowMapResolution.1024=Низкое (1024)
+value.shadowMapResolution.1536=Пониженное (1536)
+value.shadowMapResolution.2048=Среднее (2048)
+value.shadowMapResolution.3072=Высокое (3072)
+value.shadowMapResolution.4096=Очень высокое (4096)
+value.shadowMapResolution.8192=Ультра высокое (8192)
+
+option.shadowDistance=Дальность теней
+option.shadowDistance.comment=Настройка дальности теней.
+
+option.SHADOW_COLOR=Цветные тени
+option.SHADOW_COLOR.comment=Включает цветные тени от прозрачных объектов. [+]Используется для цветных объёмных световых лучей. [-]Немного снижает производительность при использовании фильтрации теней.
+
+option.SHADOW_FILTER=Фильтрация теней
+option.SHADOW_FILTER.comment=Включает фильтрацию теней.
+
+option.AO=Окклюзия окружающей среды
+option.AO.comment=Добавляет мягкие тени вокруг контакта или пересечения поверхностей.
+
+option.AO_STRENGTH=Сила окклюзии
+option.AO_STRENGTH.comment=Настройка силы окклюзии окружающей среды.
+
+option.DESATURATION=Обесцвечивание
+option.DESATURATION.comment=Уменьшает насыщенность, добавляя оттенок в тёмные области.
+
+option.DESATURATION_FACTOR=Коэффициент обесцвечивания
+option.DESATURATION_FACTOR.comment=Настройка максимального уровня обесцвечивания.
+value.DESATURATION_FACTOR.2.0=Очень низкий
+value.DESATURATION_FACTOR.1.5=Низкий
+value.DESATURATION_FACTOR.1.0=Средний
+value.DESATURATION_FACTOR.0.5=Высокий
+value.DESATURATION_FACTOR.0.0=Очень высокий
+
+option.DYNAMIC_HANDLIGHT=Динамическое освещение
+option.DYNAMIC_HANDLIGHT.comment=Позволяет источникам света излучать свет при удерживании определенных объектов.
+
+option.MULTICOLORED_BLOCKLIGHT=Многоцветный блочный свет
+option.MULTICOLORED_BLOCKLIGHT.comment=Включает многоцветный блочный свет в поле зрения.
+
+#Дополнительные настройки теней
+option.SHADOW_ENTITY=Тени от сущностей
+option.SHADOW_ENTITY.comment=Включает тени от мобов. [*]Вызывает задержки при большом количестве загруженных мобов.
+
+option.SHADOW_BLOCK_ENTITY=Тени от блочных сущностей
+option.SHADOW_BLOCK_ENTITY.comment=Включает тени от блочных сущностей. [*]Вызывает задержки при большом количестве загруженных блок-сущностей.
+
+option.SHADOW_VEGETATION=Тени от растительности
+option.SHADOW_VEGETATION.comment=Включает тени от травы, культур и большинства других растений.
+
+option.sunPathRotation=Поворот пути солнца
+option.sunPathRotation.comment=Настройка угла солнца.
+
+option.SHADOW_PIXEL=Пиксельные тени
+option.SHADOW_PIXEL.comment=Применяет пикселизацию к теням.
+value.SHADOW_PIXEL.0=Выкл
+value.SHADOW_PIXEL.1=Вкл
+
+#Настройки цветного блочного света
+option.MCBL_ANTI_BLEED=Анти-утечка
+option.MCBL_ANTI_BLEED.comment=Уменьшает нежелательное распространение цвета блочного света. [-]Может сделать более заметными артефакты недоусреднения.
+
+#Материалы
+option.SSS=Подповерхностное рассеивание
+option.SSS.comment=Позволяет свету проникать и рассеиваться через блоки. [+]Этот эффект лучше выглядит с TAA.
+
+option.BASIC_SSS=Базовое рассеивание
+option.BASIC_SSS.comment=Включает упрощенную версию подповерхностного рассеивания для некоторых блоков.
+
+option.EMISSIVE=Свечение текстур
+option.EMISSIVE.comment=Позволяет некоторым поверхностям излучать свет.
+value.EMISSIVE.0=Выкл
+value.EMISSIVE.1=Только продвинутые
+value.EMISSIVE.2=Полное
+
+option.REFRACTION=Преломление
+option.REFRACTION.comment=Включает искажение за прозрачными поверхностями с картами нормалей. [-]Сама прозрачная поверхность будет искажена. [-]Некоторые другие функции могут работать неправильно при включении этого эффекта.
+value.REFRACTION.0=Выкл
+value.REFRACTION.1=Только вода
+value.REFRACTION.2=Полное
+
+option.ALBEDO_BALANCING=Балансировка альбедо
+option.ALBEDO_BALANCING.comment=Уменьшает яркость очень ярких цветных поверхностей.
+
+option.ALPHA_BLEND=Альфа-смешивание
+option.ALPHA_BLEND.comment=Определяет, как осуществляется смешивание прозрачности.
+value.ALPHA_BLEND.0=Гамма
+value.ALPHA_BLEND.1=Линейное
+
+#Глянцевость и отражения
+option.REFLECTION=Отражения
+option.REFLECTION.comment=Включает отражения на воде и прозрачных поверхностях.
+value.REFLECTION.0=Выкл
+value.REFLECTION.1=Только небо и глянцевость
+value.REFLECTION.2=Полное
+
+option.REFLECTION_TRANSLUCENT=Отражения на прозрачных поверхностях
+option.REFLECTION_TRANSLUCENT.comment=Позволяет отображать отражения на прозрачных поверхностях, таких как окрашенное стекло, лёд, слизневые блоки и другие.
+
+option.REFLECTION_SPECULAR=Глянцевое отражение
+option.REFLECTION_SPECULAR.comment=Включает отражения на гладких или металлических поверхностях.
+
+option.REFLECTION_RAIN=Отражения дождя
+option.REFLECTION_RAIN.comment=Позволяет поверхностям быть мокрыми во время дождя. [*]Требуется спекулярное отражение.
+
+option.REFLECTION_ROUGH=Шершавые отражения
+option.REFLECTION_ROUGH.comment=Позволяет поверхностям с низкой гладкостью отображать размытые отражения. [-]Может содержать незначительные артефакты.
+
+option.REFLECTION_MODE=Режим отражений
+option.REFLECTION_MODE.comment=Настраивает поведение отражений.
+value.REFLECTION_MODE.0=Меньше дубликатов
+value.REFLECTION_MODE.1=Сбалансировано
+value.REFLECTION_MODE.2=Больше заполнения пробелов
+
+option.REFLECTION_SKY_FALLOFF=Затухание отражений неба
+option.REFLECTION_SKY_FALLOFF.comment=Настраивает, как далеко затухают отражения неба при низком освещении.
+value.REFLECTION_SKY_FALLOFF.1=Очень слабое
+value.REFLECTION_SKY_FALLOFF.2=Слабое
+value.REFLECTION_SKY_FALLOFF.4=Сбалансированное
+value.REFLECTION_SKY_FALLOFF.8=Сильное
+value.REFLECTION_SKY_FALLOFF.16=Очень сильное
+
+#Normals & Parallax
+option.PARALLAX=Соотношение смещения параллакса
+option.PARALLAX.comment=Добавляет смещение на поверхность с использованием карты высот.
+
+option.PARALLAX_DEPTH=Глубина параллакса
+option.PARALLAX_DEPTH.comment=Настраивает глубину параллакса.
+value.PARALLAX_DEPTH.0.05=5 см
+value.PARALLAX_DEPTH.0.10=10 см
+value.PARALLAX_DEPTH.0.15=15 см
+value.PARALLAX_DEPTH.0.20=20 см
+value.PARALLAX_DEPTH.0.25=25 см
+value.PARALLAX_DEPTH.0.30=30 см
+value.PARALLAX_DEPTH.0.35=35 см
+value.PARALLAX_DEPTH.0.40=40 см
+value.PARALLAX_DEPTH.0.45=45 см
+value.PARALLAX_DEPTH.0.50=50 см
+
+option.PARALLAX_QUALITY=Образцы параллакса
+option.PARALLAX_QUALITY.comment=Настраивает качество картирования смещения параллакса.
+
+option.PARALLAX_DISTANCE=Дальность параллакса
+option.PARALLAX_DISTANCE.comment=Настраивает, как далеко могут отображаться картирование смещения параллакса и само-затенение.
+
+option.SELF_SHADOW=Самозатенение
+option.SELF_SHADOW.comment=Позволяет поверхности отбрасывать тень на саму себя, используя карту высот.
+
+option.SELF_SHADOW_ANGLE=Угол самозатенения
+option.SELF_SHADOW_ANGLE.comment=Настраивает угол самозатенения, более высокое значение позволяет тени распространяться дальше.
+
+option.SELF_SHADOW_QUALITY=Образцы самозатенения
+option.SELF_SHADOW_QUALITY.comment=Настраивает качество самозатенения.
+
+option.SELF_SHADOW_STRENGTH=Сила самозатенения
+option.SELF_SHADOW_STRENGTH.comment=Настраивает интенсивность самозатенения.
+
+option.NORMAL_DAMPENING=Снижение нормали
+option.NORMAL_DAMPENING.comment=Уменьшает силу карты нормалей, чтобы предотвратить слишком шумные отражения.
+
+option.NORMAL_PLANTS=Растения, обращённые вверх
+option.NORMAL_PLANTS.comment=Настраивает затенение растений. [*]Отключите это, если используется немодельное растение или применена нормальная карта на растения.
+
+#Атмосфера
+option.CLOUDS=Облака
+option.CLOUDS.comment=Включает облака. [+]Скайбокс и объёмные облака выигрывают от TAA. [*]Ванильные облака требуют, чтобы настройка облаков в игре была установлена на "По умолчанию" или "Включено".
+value.CLOUDS.0=Выкл
+value.CLOUDS.1=Скайбокс
+value.CLOUDS.2=Объёмные
+value.CLOUDS.3=Ванильные
+
+option.SKY_DESATURATION=Обесцвечивание неба
+option.SKY_DESATURATION.comment=Уменьшает насыщенность, добавляя тёмный оттенок на скайбокс ночью.
+
+option.DISTANT_FADE=Затухание дальних объектов
+option.DISTANT_FADE.comment=Затухает границы дальних чанков. [*]Эта опция зависит от плотности тумана.
+value.DISTANT_FADE.0=Выкл
+value.DISTANT_FADE.1=Только Верхний мир
+value.DISTANT_FADE.2=Только Незер и Энд
+value.DISTANT_FADE.3=Полное
+
+option.DISTANT_FADE_STYLE=Стиль затухания дальних объектов
+option.DISTANT_FADE_STYLE.comment=Сферический работает как ванильный туман. Цилиндрический игнорирует ось Y.
+value.DISTANT_FADE_STYLE.0=Сферический
+value.DISTANT_FADE_STYLE.1=Цилиндрический
+
+option.WEATHER_PERBIOME=Погода по биому
+option.WEATHER_PERBIOME.comment=Использовать различные цвета погоды для разных биомов. [-]Может не работать в неизвестных условиях.
+
+option.UNDERGROUND_SKY=Исправление подземного неба
+option.UNDERGROUND_SKY.comment=Скрывает небо, когда игрок находится в темной зоне и ниже уровня моря (Y: 62). [-]Не подходит для низких суперплоских миров.
+
+option.LIGHT_SHAFT=Световые лучи
+option.LIGHT_SHAFT.comment=Добавляет объёмные лучи от солнца/луны. [+]Этот эффект выигрывает от TAA. [*]Требуются реальные тени. [*]Производительность зависит от разрешения теневой карты.
+
+option.LIGHT_SHAFT_STRENGTH=Сила световых лучей
+option.LIGHT_SHAFT_STRENGTH.comment=Настраивает силу световых лучей.
+
+option.FOG_DENSITY=Плотность тумана
+option.FOG_DENSITY.comment=Настраивает плотность тумана. [*]Эта опция игнорируется в Незере.
+
+option.WEATHER_OPACITY=Прозрачность погоды
+option.WEATHER_OPACITY.comment=Настраивает прозрачность погоды.
+
+#Настройки неба
+option.SKY_DENSITY_D=Плотность дня
+option.SKY_EXPOSURE_D=Экспозиция дня
+option.SKY_DENSITY_N=Плотность ночи
+option.SKY_EXPOSURE_N=Экспозиция ночи
+option.SKY_DENSITY_W=Плотность погоды
+option.SKY_EXPOSURE_W=Экспозиция погоды
+option.SKY_HORIZON_N=Ближний горизонт
+option.SKY_HORIZON_F=Дальний горизонт
+option.SKY_GROUND=Небесная земля
+option.SKY_GROUND.comment=Затемняет нижнюю часть неба. [*]Эта опция зависит от плотности тумана.
+value.SKY_GROUND.0=Выкл
+value.SKY_GROUND.1=Только отражения
+value.SKY_GROUND.2=Полное
+
+option.SKYBOX_BRIGHTNESS=Яркость скайбокса
+option.SKYBOX_BRIGHTNESS.comment=Настраивает яркость скайбокса. [*]Установите на 1.00 при наличии вычитаемого скайбокса.
+
+#Настройки облаков
+option.CLOUD_BASE=Базовая форма
+option.CLOUD_BASE.comment=Определяет, какой тип шума используется для базовой формы облака.
+value.CLOUD_BASE.0=Перлин
+value.CLOUD_BASE.1=Ворли
+
+option.CLOUD_DENSITY=Плотность
+option.CLOUD_DENSITY.comment=Настраивает плотность облаков, при более высокой плотности артефакты становятся более заметными.
+value.CLOUD_DENSITY.1=Очень низкая
+value.CLOUD_DENSITY.2=Низкая
+value.CLOUD_DENSITY.4=Средняя
+value.CLOUD_DENSITY.6=Высокая
+value.CLOUD_DENSITY.8=Очень высокая
+
+option.CLOUD_AMOUNT=Количество
+option.CLOUD_AMOUNT.comment=Настраивает количество облаков.
+value.CLOUD_AMOUNT.12.0=Очень низкое
+value.CLOUD_AMOUNT.11.0=Низкое
+value.CLOUD_AMOUNT.10.0=Среднее
+value.CLOUD_AMOUNT.9.0=Высокое
+value.CLOUD_AMOUNT.8.0=Очень высокое
+
+option.CLOUD_HEIGHT=Высота
+option.CLOUD_HEIGHT.comment=Настраивает высоту облаков.
+value.CLOUD_HEIGHT.5.0=Очень низкая
+value.CLOUD_HEIGHT.7.5=Низкая
+value.CLOUD_HEIGHT.10.0=Средняя
+value.CLOUD_HEIGHT.12.5=Высокая
+value.CLOUD_HEIGHT.15.0=Очень высокая
+
+option.CLOUD_THICKNESS=Толщина
+option.CLOUD_THICKNESS.comment=Настраивает толщину облаков.
+value.CLOUD_THICKNESS.2=Очень низкая
+value.CLOUD_THICKNESS.4=Низкая
+value.CLOUD_THICKNESS.5=Средняя
+value.CLOUD_THICKNESS.7=Высокая
+value.CLOUD_THICKNESS.10=Очень высокая
+
+option.CLOUD_DETAIL=Детализация
+option.CLOUD_DETAIL.comment=Настраивает детализацию облаков.
+value.CLOUD_DETAIL.0.3=Очень низкая
+value.CLOUD_DETAIL.0.7=Низкая
+value.CLOUD_DETAIL.1.0=Средняя
+value.CLOUD_DETAIL.1.3=Высокая
+value.CLOUD_DETAIL.1.7=Очень высокая
+
+option.CLOUD_SPEED=Скорость
+option.CLOUD_SPEED.comment=Настраивает скорость облаков.
+
+option.CLOUD_OPACITY=Прозрачность
+option.CLOUD_OPACITY.comment=Настраивает прозрачность облаков.
+
+option.CLOUD_BRIGHTNESS=Яркость
+option.CLOUD_BRIGHTNESS.comment=Настраивает яркость облаков.
+
+option.CLOUD_VOLUMETRIC_SCALE=Масштаб объёмных облаков
+option.CLOUD_VOLUMETRIC_SCALE.comment=Настраивает высоту и размер объёмных облаков.
+value.CLOUD_VOLUMETRIC_SCALE.6.0=Старый ванильный
+value.CLOUD_VOLUMETRIC_SCALE.12.4=Ванильный
+value.CLOUD_VOLUMETRIC_SCALE.16.0=Оригинальный скайбокс
+
+#Water
+option.WATER_MODE=Режим текстуры воды
+option.WATER_MODE.comment=Определяет, следует ли использовать текстуру ванильной воды. По умолчанию: плоский цвет воды шейдера, без текстуры. Vanilla: ванильная текстура. Tinted Vanilla: ванильная текстура с цветом воды шейдера. Flat Vanilla: плоский цвет воды ванили.
+value.WATER_MODE.0=По умолчанию
+value.WATER_MODE.1=Ванильный
+value.WATER_MODE.2=Тонированный ванильный
+value.WATER_MODE.3=Плоский ванильный
+
+option.WATER_ALPHA_MODE=Режим прозрачности воды
+option.WATER_ALPHA_MODE.comment=Определяет, использует ли вода альфа-значение шейдера или текстуры. [*]Некоторые эффекты будут продолжать использовать альфа-значение шейдера.
+value.WATER_ALPHA_MODE.0=Плоский
+value.WATER_ALPHA_MODE.1=Ванильный
+
+option.WATER_NORMALS=Нормали
+option.WATER_NORMALS.comment=Включает генерацию нормалей для воды в реальном времени.
+value.WATER_NORMALS.0=Выкл
+value.WATER_NORMALS.1=Ворли
+value.WATER_NORMALS.2=Перлин
+
+option.WATER_PARALLAX=Параллакс
+option.WATER_PARALLAX.comment=Включает смещение воды.
+
+option.WATER_SHADOW_COLOR=Цветные тени воды
+option.WATER_SHADOW_COLOR.comment=Определяет, должны ли тени от воды быть цветными для тонирования. [*]Включение этой опции предотвратит отбрасывание цветных теней прозрачными объектами при погружении в воду.
+
+option.WATER_CAUSTICS=Каустика воды
+option.WATER_CAUSTICS.comment=Определяет, должны ли каустики отбрасываться водой. [*]Включение этой опции предотвратит отбрасывание цветных теней прозрачными объектами при погружении в воду. [*]Требуются тени в реальном времени.
+
+option.WATER_DETAIL=Детализация
+option.WATER_DETAIL.comment=Настраивает соотношение между большими и маленькими нормалями воды.
+value.WATER_DETAIL.0.05=5%
+value.WATER_DETAIL.0.10=10%
+value.WATER_DETAIL.0.15=15%
+value.WATER_DETAIL.0.20=20%
+value.WATER_DETAIL.0.25=25%
+value.WATER_DETAIL.0.30=30%
+value.WATER_DETAIL.0.35=35%
+value.WATER_DETAIL.0.40=40%
+value.WATER_DETAIL.0.45=45%
+value.WATER_DETAIL.0.50=50%
+
+option.WATER_BUMP=Рельефность
+option.WATER_BUMP.comment=Настраивает интенсивность нормалей воды.
+
+option.WATER_SHARPNESS=Резкость
+option.WATER_SHARPNESS.comment=Настраивает резкость нормалей воды и количество каустик.
+value.WATER_SHARPNESS.0.8=Низкая
+value.WATER_SHARPNESS.0.5=Средняя
+value.WATER_SHARPNESS.0.2=Высокая
+
+option.WATER_SPEED=Скорость
+option.WATER_SPEED.comment=Настраивает скорость шума для нормалей воды.
+
+option.WATER_FOG=Туман воды
+option.WATER_FOG.comment=Определяет, будет ли туман воды виден только под водой или всегда.
+value.WATER_FOG.0=Только под водой
+value.WATER_FOG.1=Полный
+
+option.WATER_FOG_DENSITY=Плотность тумана воды
+option.WATER_FOG_DENSITY.comment=Настраивает плотность тумана воды.
+
+option.WATER_CAUSTICS_STRENGTH=Сила каустики
+option.WATER_CAUSTICS_STRENGTH.comment=Настраивает силу каустики воды.
+
+option.WATER_PIXEL=Пикселизация
+option.WATER_PIXEL.comment=Применяет эффект пикселизации на нормали воды.
+value.WATER_PIXEL.0=Выкл
+
+#Camera
+option.BLOOM=Свечение
+option.BLOOM.comment=Позволяет ярким областям светиться.
+
+option.BLOOM_STRENGTH=Сила свечения
+option.BLOOM_STRENGTH.comment=Настраивает интенсивность свечения.
+
+option.BLOOM_CONTRAST=Контраст свечения
+option.BLOOM_CONTRAST.comment=Настраивает, должен ли свечение сохранять цветовой контраст или видимость деталей. Более высокое значение сохраняет цветовой контраст, тогда как более низкое значение сохраняет видимость деталей.
+value.BLOOM_CONTRAST.-4=-1.00
+value.BLOOM_CONTRAST.-3=-0.75
+value.BLOOM_CONTRAST.-2=-0.50
+value.BLOOM_CONTRAST.-1=-0.25
+value.BLOOM_CONTRAST.0=0.00
+value.BLOOM_CONTRAST.1=0.25
+value.BLOOM_CONTRAST.2=0.50
+value.BLOOM_CONTRAST.3=0.75
+value.BLOOM_CONTRAST.4=1.00
+
+option.BLOOM_RADIUS=Радиус свечения
+option.BLOOM_RADIUS.comment=Настраивает, насколько далеко распространяется свечение.
+value.BLOOM_RADIUS.1=Минимум
+value.BLOOM_RADIUS.2=Очень низкий
+value.BLOOM_RADIUS.3=Низкий
+value.BLOOM_RADIUS.4=Средний
+value.BLOOM_RADIUS.5=Высокий
+value.BLOOM_RADIUS.6=Очень высокий
+value.BLOOM_RADIUS.7=Максимум
+
+option.CHROMATIC_ABERRATION=Хроматическая аберрация
+option.CHROMATIC_ABERRATION.comment=Добавляет цветовое искажение по краям.
+value.CHROMATIC_ABERRATION.0=Выкл
+value.CHROMATIC_ABERRATION.1=Слабая
+value.CHROMATIC_ABERRATION.2=Сильная
+
+option.UNDERWATER_DISTORTION=Искажение под водой
+option.UNDERWATER_DISTORTION.comment=Применяет эффект искажения экрана под водой.
+
+#Сглаживание
+option.FXAA=FXAA
+option.FXAA.comment=Включает быстрое приближенное сглаживание, выполняемое путем сглаживания краев с минимальными затратами производительности. [*]Пожалуйста, отключите сглаживание в меню OptiFine, когда эта опция включена.
+
+option.TAA=TAA
+option.TAA.comment=Включает временное сглаживание, выполненное путем умного смешивания кадров, что улучшает мельчайшие детали и некоторые эффекты. [*]Включено резкость. [*]Пожалуйста, отключите сглаживание в меню Shaders, когда эта опция включена.
+
+#Цвет
+option.LIGHT_MR=Красный
+option.LIGHT_MG=Зелёный
+option.LIGHT_MB=Синий
+option.LIGHT_MI=Интенсивность
+
+option.LIGHT_DR=Красный
+option.LIGHT_DG=Зелёный
+option.LIGHT_DB=Синий
+option.LIGHT_DI=Интенсивность
+
+option.LIGHT_ER=Красный
+option.LIGHT_EG=Зелёный
+option.LIGHT_EB=Синий
+option.LIGHT_EI=Интенсивность
+
+option.LIGHT_NR=Красный
+option.LIGHT_NG=Зелёный
+option.LIGHT_NB=Синий
+option.LIGHT_NI=Интенсивность
+
+option.AMBIENT_MR=Красный
+option.AMBIENT_MG=Зелёный
+option.AMBIENT_MB=Синий
+option.AMBIENT_MI=Интенсивность
+
+option.AMBIENT_DR=Красный
+option.AMBIENT_DG=Зелёный
+option.AMBIENT_DB=Синий
+option.AMBIENT_DI=Интенсивность
+
+option.AMBIENT_ER=Красный
+option.AMBIENT_EG=Зелёный
+option.AMBIENT_EB=Синий
+option.AMBIENT_EI=Интенсивность
+
+option.AMBIENT_NR=Красный
+option.AMBIENT_NG=Зелёный
+option.AMBIENT_NB=Синий
+option.AMBIENT_NI=Интенсивность
+
+option.MINLIGHT_R=Красный
+option.MINLIGHT_G=Зелёный
+option.MINLIGHT_B=Синий
+option.MINLIGHT_I=Интенсивность
+value.MINLIGHT_I.0.30=0.30 (мрачный)
+value.MINLIGHT_I.0.50=0.50 (по умолчанию)
+value.MINLIGHT_I.0.70=0.70 (яркий)
+
+option.BLOCKLIGHT_R=Красный
+option.BLOCKLIGHT_G=Зелёный
+option.BLOCKLIGHT_B=Синий
+option.BLOCKLIGHT_I=Интенсивность
+
+option.SKY_R=Красный
+option.SKY_G=Зелёный
+option.SKY_B=Синий
+option.SKY_I=Интенсивность
+
+option.WATER_R=Красный
+option.WATER_G=Зелёный
+option.WATER_B=Синий
+option.WATER_I=Интенсивность
+option.WATER_A=Альфа
+
+option.WEATHER_RR=Красный
+option.WEATHER_RG=Зелёный
+option.WEATHER_RB=Синий
+option.WEATHER_RI=Интенсивность
+
+option.WEATHER_CR=Красный
+option.WEATHER_CG=Зелёный
+option.WEATHER_CB=Синий
+option.WEATHER_CI=Интенсивность
+
+option.WEATHER_DR=Красный
+option.WEATHER_DG=Зелёный
+option.WEATHER_DB=Синий
+option.WEATHER_DI=Интенсивность
+
+option.WEATHER_BR=Красный
+option.WEATHER_BG=Зелёный
+option.WEATHER_BB=Синий
+option.WEATHER_BI=Интенсивность
+
+option.WEATHER_SR=Красный
+option.WEATHER_SG=Зелёный
+option.WEATHER_SB=Синий
+option.WEATHER_SI=Интенсивность
+
+option.WEATHER_MR=Красный
+option.WEATHER_MG=Зелёный
+option.WEATHER_MB=Синий
+option.WEATHER_MI=Интенсивность
+
+option.WEATHER_VR=Красный
+option.WEATHER_VG=Зелёный
+option.WEATHER_VB=Синий
+option.WEATHER_VI=Интенсивность
+
+option.NETHER_NR=Красный
+option.NETHER_NG=Зелёный
+option.NETHER_NB=Синий
+option.NETHER_NI=Интенсивность
+
+option.NETHER_VR=Красный
+option.NETHER_VG=Зелёный
+option.NETHER_VB=Синий
+option.NETHER_VI=Интенсивность
+
+option.NETHER_CR=Красный
+option.NETHER_CG=Зелёный
+option.NETHER_CB=Синий
+option.NETHER_CI=Интенсивность
+
+option.NETHER_WR=Красный
+option.NETHER_WG=Зелёный
+option.NETHER_WB=Синий
+option.NETHER_WI=Интенсивность
+
+option.NETHER_BR=Красный
+option.NETHER_BG=Зелёный
+option.NETHER_BB=Синий
+option.NETHER_BI=Интенсивность
+
+option.END_R=Красный
+option.END_G=Зелёный
+option.END_B=Синий
+option.END_I=Интенсивность
+
+#Цветокоррекция
+option.EXPOSURE=Экспозиция
+option.TonemapExposure.comment=Регулирует общую яркость.
+
+option.TONEMAP_WHITE_CURVE=Белая кривая тональной карты
+option.TONEMAP_WHITE_CURVE.comment=Регулирует, как быстро тональная карта достигает белого.
+
+option.TONEMAP_LOWER_CURVE=Нижняя кривая тональной карты
+option.TONEMAP_LOWER_CURVE.comment=Регулирует контраст темных цветов.
+
+option.TONEMAP_UPPER_CURVE=Верхняя кривая тональной карты
+option.TONEMAP_UPPER_CURVE.comment=Регулирует контраст ярких цветов.
+
+option.SATURATION=Насыщенность
+option.SATURATION.comment=Регулирует насыщенность всех цветов.
+
+option.VIBRANCE=Вибрация
+option.VIBRANCE.comment=Регулирует насыщенность менее насыщенных цветов, хорошо насыщенные цвета менее затрагиваются.
+
+#Дополнительная настройка экспозиции
+option.AUTO_EXPOSURE=Автоэкспозиция
+option.AUTO_EXPOSURE.comment=Включает автоматическую настройку общей яркости.
+
+option.CLASSIC_EXPOSURE=Классическая экспозиция
+option.CLASSIC_EXPOSURE.comment=Включает увеличенную экспозицию при входе в помещение.
+
+option.AUTO_EXPOSURE_RADIUS=Радиус автоэкспозиции
+option.AUTO_EXPOSURE_RADIUS.comment=Регулирует, сколько экрана используется для расчета экспозиции.
+value.AUTO_EXPOSURE_RADIUS.0.002=Очень низкий
+value.AUTO_EXPOSURE_RADIUS.0.04=Низкий
+value.AUTO_EXPOSURE_RADIUS.0.18=Средний
+value.AUTO_EXPOSURE_RADIUS.0.35=Высокий
+value.AUTO_EXPOSURE_RADIUS.0.7=Очень высокий
+
+option.AUTO_EXPOSURE_SPEED=Скорость автоэкспозиции
+option.AUTO_EXPOSURE_SPEED.comment=Регулирует, как быстро происходит изменение экспозиции. [-]Высокая скорость или выше может вызвать мигание в сочетании с низким радиусом.
+value.AUTO_EXPOSURE_SPEED.0.0033=Очень медленно
+value.AUTO_EXPOSURE_SPEED.0.01=Медленно
+value.AUTO_EXPOSURE_SPEED.0.033=Средне
+value.AUTO_EXPOSURE_SPEED.0.1=Быстро
+value.AUTO_EXPOSURE_SPEED.0.33=Очень быстро
+
+#Колеблющиеся блоки
+option.WAVING_GRASS=Трава
+option.WAVING_GRASS.comment=Позволяет траве колебаться на ветру.
+
+option.WAVING_CROP=Культуры
+option.WAVING_CROP.comment=Позволяет растениям на сельскохозяйственных землях колебаться на ветру.
+
+option.WAVING_PLANT=Растения
+option.WAVING_PLANT.comment=Позволяет различным растениям колебаться на ветру.
+
+option.WAVING_TALL_PLANT=Высокие растения
+option.WAVING_TALL_PLANT.comment=Позволяет высоким растениям (2 блока в высоту) колебаться на ветру.
+
+option.WAVING_LEAF=Листва
+option.WAVING_LEAF.comment=Позволяет листве колебаться на ветру.
+
+option.WAVING_VINE=Лозы
+option.WAVING_VINE.comment=Позволяет лозам колебаться на ветру.
+
+option.WAVING_WATER=Вода
+option.WAVING_WATER.comment=Позволяет воде колебаться на ветру.
+
+option.WAVING_LAVA=Лава
+option.WAVING_LAVA.comment=Позволяет лаве колебаться на ветру.
+
+option.WAVING_FIRE=Огонь
+option.WAVING_FIRE.comment=Позволяет огню колебаться на ветру.
+
+option.WAVING_LANTERN=Фонари
+option.WAVING_LANTERN.comment=Позволяет фонарям колебаться на ветру.
